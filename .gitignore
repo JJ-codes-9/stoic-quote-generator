@@ -1,0 +1,13 @@
+# Don't track node_modules (it's huge and rebuilt from package.json)
+node_modules/
+
+# Mac system file
+.DS_Store
+
+# Environment files (not used yet, but good practice)
+.env
+
+# Logs (just in case)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
